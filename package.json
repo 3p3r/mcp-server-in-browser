@@ -1,0 +1,31 @@
+{
+  "name": "mcp-server-in-browser",
+  "version": "1.0.0",
+  "description": "Create MCP servers with Service Workers in browser!",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack serve --config webpack.config.js --mode development",
+    "lint": "biome check .",
+    "format": "biome format --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.4",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "html-webpack-plugin": "^5.6.4",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.9.3",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
